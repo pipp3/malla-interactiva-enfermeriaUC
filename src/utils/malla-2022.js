@@ -5,7 +5,7 @@ export const ramos2022 = [
         code: 'MED841',
         course: 'Anatomía General y del Desarrollo',
         cr:10,
-        semester: 'I',
+        semester: '1',
         cc:NAR,
         req:[]
     },
@@ -14,7 +14,7 @@ export const ramos2022 = [
         code: 'QIM100F',
         course: 'Química',
         cr:10,
-        semester: 'I',
+        semester: '1',
         cc:NAR,
         req:[]
     },
@@ -23,7 +23,7 @@ export const ramos2022 = [
         code: 'ENF1124',
         course: 'Psicología',
         cr:10,
-        semester: 'I',
+        semester: '1',
         cc:NAR,
         req:[]
     },
@@ -32,7 +32,7 @@ export const ramos2022 = [
         code: 'ENF1112',
         course: 'Naturaleza de la Enfermería',
         cr:5,
-        semester: 'I',
+        semester: '1',
         cc:VER,
         req:[]
     },
@@ -41,7 +41,7 @@ export const ramos2022 = [
         code: 'ENF1127',
         course: 'Salud, Cultura y Sociedad Global',
         cr:10,
-        semester: 'I',
+        semester: '1',
         cc:VER,
         req:[]
     },
@@ -50,7 +50,7 @@ export const ramos2022 = [
         code: 'ENF1133',
         course: 'Metodología de la Investigación',
         cr:5,
-        semester: 'I',
+        semester: '1',
         cc:VER,
         req:[]
     },
@@ -59,7 +59,7 @@ export const ramos2022 = [
         code: 'BIO136E',
         course: 'Bioquímica Celular',
         cr:10,
-        semester: 'II',
+        semester: '2',
         cc:NAR,
         req:[
           
@@ -70,7 +70,7 @@ export const ramos2022 = [
         code: 'EYP1087',
         course: 'Bioestadística',
         cr:10,
-        semester: 'II',
+        semester: '2',
         cc:NAR,
         req:[]
     },
@@ -79,7 +79,7 @@ export const ramos2022 = [
         code: 'ENF1205',
         course: 'Cuidados de Enfermería I',
         cr:10,
-        semester: 'III',
+        semester: '2',
         cc:AZUL,
         req:[
             {
@@ -92,7 +92,7 @@ export const ramos2022 = [
         code: 'ENF1212',
         course: 'Salud Pública',
         cr:10,
-        semester: 'II',
+        semester: '2',
         cc:VER,
         req:[]
     },
@@ -101,7 +101,7 @@ export const ramos2022 = [
         code: 'FIL2001',
         course: 'Filosofía',
         cr:10,
-        semester: 'IV',
+        semester: '2',
         cc:CEL,
         req:[]
     },
@@ -110,8 +110,8 @@ export const ramos2022 = [
         code: 'BIO146E',
         course: 'Microbiología e Infectología Clinica',
         cr:10,
-        semester: 'III',
-        cc:'NAR',
+        semester: '3',
+        cc:NAR,
         req:[
             {
                 id:7
@@ -123,7 +123,7 @@ export const ramos2022 = [
         code: 'BIO126E',
         course: 'Fisiología',
         cr:10,
-        semester: 'III',
+        semester: '3',
         cc:NAR,
         req:[
             {
@@ -134,9 +134,9 @@ export const ramos2022 = [
     {
         id: 14,
         code: 'ENF2112',
-        course: 'Cuidados de Enfermería de la Persona y la Familia',
+        course: 'Cuidados E. de la Persona y Familia',
         cr:15,
-        semester: 'III',
+        semester: '3',
         cc:AZUL,
         req:[
             {
@@ -158,7 +158,7 @@ export const ramos2022 = [
         code: 'ENF2115',
         course: 'Educacion para la Salud',
         cr:5,
-        semester: 'III',
+        semester: '3',
         cc:VER,
         req:[
             {
@@ -174,7 +174,7 @@ export const ramos2022 = [
         code: 'FIL2001',
         course: 'Teológico',
         cr:10,
-        semester: 'III',
+        semester: '3',
         cc:CEL,
         req:[]
     },
@@ -183,7 +183,7 @@ export const ramos2022 = [
         code: 'MED839',
         course: 'Farmacología Clinica',
         cr:10,
-        semester: 'IV',
+        semester: '4',
         cc:NAR,
         req:[
             {
@@ -197,9 +197,9 @@ export const ramos2022 = [
     {
         id: 18,
         code: 'MED840',
-        course: 'Fisiopatología General y de Sistemas',
+        course: 'Fisiopatología G. y de Sistemas',
         cr:10,
-        semester: 'IV',
+        semester: '4',
         cc:NAR,
         req:[
             {
@@ -215,7 +215,7 @@ export const ramos2022 = [
         code: 'ENF2208',
         course: 'Cuidados de Enfermería II',
         cr:15,
-        semester: 'IV',
+        semester: '4',
         cc:AZUL,
         req:[
             {
@@ -237,7 +237,7 @@ export const ramos2022 = [
         code: 'ENF2215',
         course: 'Informatica en Salud',
         cr:5,
-        semester: 'IV',
+        semester: '4',
         cc:VER,
         req:[]
     },
@@ -246,7 +246,7 @@ export const ramos2022 = [
         code: 'ENF2220',
         course: 'Gestion y Liderazgo',
         cr:5,
-        semester: 'IV',
+        semester: '4',
         cc:VER,
         req:[]
     },
@@ -255,16 +255,16 @@ export const ramos2022 = [
         code: 'XXXX',
         course: 'Formacion General',
         cr:10,
-        semester: 'IV',
+        semester: '4',
         cc:CEL,
         req:[]
     },
     {
         id: 23,
         code: 'ENF2226',
-        course: 'Cuidados de Enfermería del Adulto y Persona Mayor',
+        course: 'Cuidados E. Adulto y Persona Mayor',
         cr:20,
-        semester: 'V',
+        semester: '5',
         cc:AZUL,
         req:[
             {
@@ -281,9 +281,9 @@ export const ramos2022 = [
     {
         id: 24,
         code: 'ENF2305',
-        course: 'Dimension Interpersonal del Cuidado de Enfermería',
+        course: 'Dimension Interpersonal C.E',
         cr:10,
-        semester: 'V',
+        semester: '5',
         cc:VER,
         req:[
             {
@@ -299,7 +299,7 @@ export const ramos2022 = [
         code: 'XXXX',
         course: 'Formacion General',
         cr:10,
-        semester: 'V',
+        semester: '5',
         cc:CEL,
         req:[]
     },
@@ -308,16 +308,16 @@ export const ramos2022 = [
         code: 'XXXX',
         course: 'Formacion General',
         cr:15,
-        semester: 'V',
+        semester: '5',
         cc:CEL,
         req:[]
     },
     {
         id: 27,
         code: 'ENF2325',
-        course: 'Cuidados de Enfermería en la infancia y Adolescencia',
+        course: 'Cuidados de E. en la I.A',
         cr:20,
-        semester: 'VI',
+        semester: '6',
         cc:AZUL,
         req:[
             {
@@ -334,9 +334,9 @@ export const ramos2022 = [
     {
         id: 28,
         code: 'ENF2322',
-        course: 'Fundamentos Eticos del Ejercicio Profesional',
+        course: 'Fundamentos Etic. del Ejer. Prof.',
         cr: 10,
-        semester: 'VI',
+        semester: '6',
         cc: VER,
         req: [
             {
@@ -352,7 +352,7 @@ export const ramos2022 = [
         code: 'XXXX',
         course: 'OPR',
         cr: 10,
-        semester: 'VI',
+        semester: '6',
         cc: VER,
         req: [
         ]
@@ -362,7 +362,7 @@ export const ramos2022 = [
         code: 'XXXX',
         course: 'Formación General',
         cr: 10,
-        semester: 'VI',
+        semester: '6',
         cc: CEL,
         req: [
         ]
@@ -370,9 +370,9 @@ export const ramos2022 = [
     {
         id: 31,
         code: 'ENF2410',
-        course: 'Enfermería en Salud Familiar y Comunitaria',
+        course: 'Enfermería en Salud F.Comu.',
         cr: 20,
-        semester: 'VII',
+        semester: '7',
         cc: AZUL,
         req: [
             {
@@ -383,9 +383,9 @@ export const ramos2022 = [
     {
         id: 32,
         code: 'ENF2416',
-        course: 'Cuidados de Enfermería en Salud Mental',
+        course: 'Cuidados de E. en S.Mental',
         cr: 10,
-        semester: 'VII',
+        semester: '7',
         cc: AZUL,
         req: [
             {
@@ -404,7 +404,7 @@ export const ramos2022 = [
         code: 'ENF2408',
         course: 'Investigacion',
         cr: 10,
-        semester: 'VII',
+        semester: '7',
         cc: VER,
         req: [
             {
@@ -417,7 +417,7 @@ export const ramos2022 = [
         code: 'XXXX',
         course: 'Formación General',
         cr: 10,
-        semester: 'VII',
+        semester: '7',
         cc: CEL,
         req: [
         ]
@@ -425,9 +425,9 @@ export const ramos2022 = [
     {
         id: 35,
         code: 'ENF2420',
-        course: 'Cuidados de Enfermería en Personas con Condiciones Crónicas de Salud',
+        course: 'Cuidados de Enfermería P.C.C.S',
         cr: 20,
-        semester: 'VIII',
+        semester: '8',
         cc: AZUL,
         req: [
             {
@@ -446,7 +446,7 @@ export const ramos2022 = [
         code: 'ENF2428',
         course: 'Informática en Salud II',
         cr: 5,
-        semester: 'VIII',
+        semester: '8',
         cc: VER,
         req: [
             {
@@ -460,7 +460,7 @@ export const ramos2022 = [
         code: 'ENF2335',
         course: 'Gestión y Liderazgo II',
         cr: 10,
-        semester: 'VIII',
+        semester: '8',
         cc: VER,
         req: [
             {
@@ -476,7 +476,7 @@ export const ramos2022 = [
         code: 'XXXX',
         course: 'OPR',
         cr: 10,
-        semester: 'VIII',
+        semester: '8',
         cc: VER,
         req: []
     },
@@ -485,7 +485,7 @@ export const ramos2022 = [
         code: 'XXXX',
         course: 'Formación General',
         cr: 10,
-        semester: 'VIII',
+        semester: '8',
         cc: CEL,
         req: [
         ]
@@ -493,9 +493,9 @@ export const ramos2022 = [
     {
         id: 40,
         code: 'ENF2510',
-        course: 'Internado de Enfermería Hospitalario',
+        course: 'I. de Enfermería Hospitalario',
         cr: 25,
-        semester: 'IX',
+        semester: '9',
         cc: AZUL,
         req: [
             {
@@ -515,9 +515,9 @@ export const ramos2022 = [
     {
         id: 41,
         code: 'ENF2518',
-        course: 'Internado de Enfermería en Urgencias',
+        course: 'I. de Enfermería en Urgencias',
         cr: 25,
-        semester: 'IX',
+        semester: '9',
         cc: AZUL,
         req: [
             {
@@ -537,9 +537,9 @@ export const ramos2022 = [
     {
         id: 42,
         code: 'ENF2515',
-        course: 'Internado de Enfermería Ambulatorio',
+        course: 'I. de Enfermería Ambulatorio',
         cr: 25,
-        semester: 'X',
+        semester: '10',
         cc: AZUL,
         req: [
             {
@@ -559,9 +559,9 @@ export const ramos2022 = [
     {
         id: 43,
         code: 'ENF2530',
-        course: 'Internado de Enfermería Electivo',
+        course: 'Internado E.E',
         cr: 25,
-        semester: 'X',
+        semester: '10',
         cc: AZUL,
         req: [
             {

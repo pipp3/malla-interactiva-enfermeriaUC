@@ -1,0 +1,15 @@
+---
+import Semester from "./Semester.astro";
+import { ramos2022 } from "../utils/malla-2022";
+
+const semesters = [...new Set(ramos2022.map(course => course.semester))].sort((a, b) => Number(a) - Number(b));
+
+---
+
+<div class="flex xl:justify-center">
+  <div class="flex">
+    {semesters.map((semester) => (
+      <Semester semester={semester} />
+    ))}
+  </div>
+</div>
