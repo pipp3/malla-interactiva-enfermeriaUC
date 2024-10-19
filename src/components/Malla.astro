@@ -6,8 +6,8 @@ const semesters = [...new Set(ramos2022.map(course => course.semester))].sort((a
 
 ---
 
-<div class="flex xl:justify-center">
-  <div class="flex">
+<div class="flex overflow-x-auto xl:justify-center">
+  <div class="flex justify-center">
     {semesters.map((semester) => (
       <Semester semester={semester} />
     ))}

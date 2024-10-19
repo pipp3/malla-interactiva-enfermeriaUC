@@ -32,12 +32,12 @@ function convertirARomano(numero: number) {
 const semesterRomano = convertirARomano(parseInt(semester));
 ---
 
-<div class="ml-1">
+<div class="ml-1 w-full">
   <div class="bg-rose-400">
     <h2 class="font-semibold mb-2 text-center mt-2 text-white rounded-md hover:cursor-pointer">{semesterRomano}</h2>
   </div>
   
-  <div class="space-y-2">
+  <div class="space-y-1">
     {semesterCourses.map((course) => (
       <Course client:load 
         course={course.course}

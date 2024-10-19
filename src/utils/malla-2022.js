@@ -246,7 +246,7 @@ export const ramos2022 = [
         code: 'ENF2220',
         course: 'Gestion y Liderazgo',
         cr:5,
-        semester: '4',
+        semester: '3',
         cc:VER,
         req:[]
     },
@@ -370,7 +370,7 @@ export const ramos2022 = [
     {
         id: 31,
         code: 'ENF2410',
-        course: 'Enfermería en Salud F.Comu.',
+        course: 'Enf. en Salud F.Comu.',
         cr: 20,
         semester: '7',
         cc: AZUL,
@@ -515,7 +515,7 @@ export const ramos2022 = [
     {
         id: 41,
         code: 'ENF2518',
-        course: 'I. de Enfermería en Urgencias',
+        course: 'I. de Enf. en Urgencias',
         cr: 25,
         semester: '9',
         cc: AZUL,

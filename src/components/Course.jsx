@@ -1,19 +1,27 @@
 import React, { useState } from "react";
-
+import { AiOutlineClose } from "react-icons/ai";
 export default function Course({ cc, course, cr, id, code, req }) {
+  
   const [completed, setCompleted] = useState(false);
+
   function handleComplete() {
     setCompleted(!completed);
   }
 
   return (
-    <div>
+    <div className="relative">
       <div
         className={`rounded-lg shadow-sm mb-2 w-32 hover:cursor-pointer ${
           completed ? "opacity-50" : ""
         }`}
         onClick={handleComplete}
       >
+      {/* Línea diagonal tachada */}
+      {completed && (
+        <div className="absolute inset-0 flex items-center justify-center">
+           <AiOutlineClose className="w-24 h-24" />
+          </div>
+        )}
         <div className="flex justify-between bg-slate-400 font-bold px-2 py-1 items-center h-6">
           <p className="text-xs pl-1 text-white">{code}</p>
           <div className="relative inline-block">
